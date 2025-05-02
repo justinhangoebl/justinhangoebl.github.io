@@ -1,0 +1,124 @@
+section {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+  font-size: 24px;
+}
+
+.section-title {
+  font-size: 32px;
+  font-weight: 700;
+  position: relative;
+  display: inline-block;
+  margin: 12px 0;
+}
+
+.section-title i {
+  margin: 1px;
+  margin-right: 12px;
+  font-size: 34px;
+}
+
+.section-title:after {
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  left: 0;
+  width: 100px;
+  height: 4px;
+  background: linear-gradient(90deg, #4f46e5, #9333ea);
+  border-radius: 2px;
+}
+
+.section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+  row-gap: 10px;
+  column-gap: 40px;
+}
+
+.link-card {
+  text-decoration: none;
+}
+
+.card {
+  background-color: #303030;
+  backdrop-filter: blur(24px);
+  border-radius: 24px;
+  padding: 12px 24px;
+  margin: 24px 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s ease;
+  border-left: 4px solid #4f46e5;
+  position: relative;
+  overflow: hidden;
+  font-size: 16px;
+  background: #303030;
+  transform: scale(1);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -4px;
+  width: 101%;
+  height: 100%;
+  border-radius: 24px;
+  background: linear-gradient(90deg, #4f46e5, #9333ea);
+  mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  padding: 4px 0 0 4px;
+  box-sizing: border-box;
+  transform: scaleX(0);
+  transform-origin: top left;
+  transition: transform 0.4s ease;
+  z-index: -1;
+  -webkit-mask-composite: xor;
+}
+
+.card:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 1);
+  background-color: #373737;
+  transform: scale(1.02);
+}
+
+.card:hover:before {
+  transform: scaleX(1);
+}
+
+.card h3 {
+  font-size: 24px;
+  color: #ffffff;
+  margin: 12px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  font-weight: 600;
+  position: relative;
+}
+
+.card h3 .subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #bbbbbb;
+}
+
+.card i {
+  font-size: 16px;
+  margin: 0;
+  margin-right: 8px;
+}
+
+.tech-stack {
+  display: inline-block;
+  font-style: italic;
+  margin-top: 0;
+  color: #cea1fe !important;
+  font-size: 0.9rem;
+}
+
+.card p {
+  color: #cccccc;
+}

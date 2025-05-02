@@ -1,11 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Justin Hangoebl</title>
-</head>
-<body>
-    Hi my name is Justin Hangoebl. I am a software engineer with a passion for web development and open source projects. I love to learn new technologies and improve my skills. In my free time, I enjoy reading books, playing video games, and exploring the outdoors.
-</body>
+
+    <link rel="icon" href="favicon/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="favicon/favicon.png" type="image/png" />
+
+    <script src="script.js"></script>
+
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles/heading.css" />
+    <link rel="stylesheet" href="styles/sections.css" />
+    <link rel="stylesheet" href="styles/skills.css" />
+    <script
+      src="https://kit.fontawesome.com/c78510b4d8.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+
+  </head>
+  <body>
+    <header id="main-header">
+      <div class="header-content">
+        <h1>
+          Justin Hangoebl, B.Sc
+          <hr />
+        </h1>
+        <address class="contact-info">
+          <a href="mailto:hangoebl.j@gmail.com">
+            <i class="fa-solid fa-envelope"></i>hangoebl.j@gmail.com</a
+          >
+          <span>
+            <a
+              href="https://www.linkedin.com/in/justin-hangoebl-714233332/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/justinhangoebl" target="_blank">
+              <i class="fa-brands fa-github"></i>
+            </a>
+          </span>
+        </address>
+      </div>
+    </header>
+
+    <section id="about-me">
+      <h2 class="section-title">
+        <i class="fa-solid fa-address-card"></i>About Me
+      </h2>
+      <p>
+        I am a Data Science Master's student at Johannes Kepler University (JKU)
+        Linz, Austria, specializing in machine learning, graph-based algorithms,
+        deep learning, and recommender systems, with a focus on content-based
+        recommendation methodologies.
+      </p>
+      <p>
+        My academic research centers on leveraging semantic IDs for
+        next-generation recommendation systems in synergy with generative
+        language models, a topic I am actively exploring in my Master's thesis.
+      </p>
+      <p>
+        During previous internships, I developed customer-oriented full-stack
+        applications, gaining hands-on experience in cross-functional software
+        development and professional workplace dynamics. These roles allowed me
+        to hone technical skills while deepening my understanding of industry
+        culture and collaborative problem-solving.
+      </p>
+      <hr />
+    </section>
+
+    <section id="projects">
+      <h2 class="section-title">
+        <i class="fa-solid fa-unlock"></i>Projects
+      </h2>
+      <div class="section-grid">
+      <a class="link-card" href="https://github.com/justinhangoebl/Semantic-ID-Generation" target="_blank">
+      <div class="card">
+        <h3>
+          Semantic IDs Generation based on RQ-VAEs
+          <span class="subtitle">Master Thesis</span>
+        </h3>
+        <p>
+          Creating a generative model for semantic IDs using RQ-VAEs, focusing on
+          enhancing recommendation systems through semantic representation.
+        </p>
+      </div>
+      </a>
+      
+      <a class="link-card" href="https://github.com/justinhangoebl/multimedia-search-and-retrieval" target="_blank">
+      <div class="card">
+        <h3>
+          Content-Based Music Retrieval System
+          <span class="subtitle">Developed for a Multimedia Search and Retrieval Course</span>
+        </h3>
+        <p>
+          Developed a content-based music retrieval system using different algorithms and comparing those algorithms on different metrics.
+        </p>
+      </div>
+      </a>
+            <div class="card">
+        <h3>
+          Volunteer Recommendation System based on Skill-Extraction and Matching using Generative Language Models
+          <span class="subtitle">Bachelor Thesis</span>
+        </h3>
+        <p>
+          Developed a recommendation system for volunteers using generative language models to extract skills,
+           later matching those skill over MongoDB Atlas Search to enhancing volunteer engagement and project alignment.
+        </p>
+      </div>
+            <div class="card">
+        <h3>
+          Autonomous Drone for Livestock Surveillance with Computer Vision
+          <span class="subtitle">Maturaproject</span>
+        </h3>
+          <p>
+            Developed an autonomous drone system for livestock surveillance using a Raspberry Pi and a camera module. Achieved by creating a sophisticated PID controller for the drone's flight stabilization and implementing a computer vision algorithm for real-time object detection and tracking.
+          </p>
+          <p>Got awarded with 2nd Place in the TEWI Schueler*innen Prize for Informatics</p>
+      </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <h2 class="section-title">
+        <i class="fa-solid fa-lightbulb"></i>Skills
+      </h2>
+      <div class="skill-grid">
+        <div class="skill-card card">
+          <h3><i class="fa-solid fa-chart-simple"></i>Programming Languages</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="fa-brands fa-python"></i>Python</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li> 
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-kotlin-plain"></i>
+Kotlin</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li> 
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-typescript-plain"></i>
+TypeScript</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li> 
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-javascript-plain"></i>
+JavaScript</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li> 
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-java-plain"></i>
+Java</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-html5-plain"></i>
+HTML/CSS</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-c-plain"></i>
+C/C++</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+            
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-csharp-plain"></i>
+C#</span
+                ><span class="tech-stack">Basic</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-rust-original"></i>
+Rust</span
+                ><span class="tech-stack">Basic</span></div
+            ></li>  
+          </ul>
+          </div>
+        
+        <div class="skill-card card">
+          <h3 style="margin-bottom: 4px"><i class="fa-solid fa-boxes-packing"></i>
+            Frameworks & Technologies</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-pytorch-original"></i>
+PyTorch</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-numpy-plain"></i>
+NumPy</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-docker-plain"></i>
+Docker</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-spring-original"></i>
+Spring</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-vuejs-plain"></i>
+Vue.js</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="fa-solid fa-compass"></i>Atlas Vector</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-angular-plain"></i>
+Angular</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-kubernetes-plain"></i>
+Kubernetes</span
+                ><span class="tech-stack">Basic</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-dot-net-plain"></i>
+.Net</span
+                ><span class="tech-stack">Basic</span></div
+            ></li>  
+          </ul>
+          </ul>
+          </div>
+
+          
+        <div class="skill-card card">
+          <h3><i class="fa-solid fa-screwdriver-wrench"></i>
+            Tools & Platforms</h3>
+          <ul class="skill-list">
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-git-plain"></i>
+Git, Gitlab, GitHub</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="fa-solid fa-scale-balanced"></i>weights & biases</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-raspberrypi-plain"></i>
+Raspberry PI</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-mongodb-plain"></i>
+MongoDB</span
+                ><span class="tech-stack">Advanced</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-azure-plain"></i>
+Azure</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="fa-regular fa-face-smile"></i>HuggingFace</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-oracle-original"></i>
+Oracle DB</span
+                ><span class="tech-stack">Proficient</span></div
+            ></li>  
+            
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-nodejs-plain"></i>
+Node.js</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+            <li class="skill-item">
+              <div class="skill-info"
+                ><span class="skill-name"><i class="devicon-postman-plain"></i>
+Postman</span
+                ><span class="tech-stack">Intermediate</span></div
+            ></li>  
+          </ul>
+          </div>
+        </div>
+    </section>
+
+    <section id="education">
+      <h2 class="section-title">
+        <i class="fa-solid fa-building-columns"></i>Education
+      </h2>
+      <div class="card">
+        <h3>
+          Master of Science in Computer (Data) Science
+          <span class="subtitle">(Expected 2026)</span>
+        </h3>
+        <p><i class="fa-solid fa-location-dot"></i><strong>Johannes Kepler University</strong>, Linz, Austria</p>
+        <p>Focused on machine learning, data analysis, and AI development.</p>
+        <p class="tech-stack">
+          <strong>Thesis:</strong> "Utilizing Semantic IDs in the Context of
+          Generative Recommendation Systems"
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>Bachelor of Science in Computer Science</h3>
+        <p><i class="fa-solid fa-location-dot"></i><strong>Johannes Kepler University</strong>, Linz, Austria</p>
+        <p><i class="fa-solid fa-graduation-cap"></i> Graduated: October 2024 (with Distinciton)</p>
+        <p>
+          Specialized in data structures, algorithms, and software engineering
+          principles. 
+        </p>
+        <p class="tech-stack">
+          <strong>Thesis:</strong> "Volunteeer Recommendation System based on
+          Skill-Extractiona and Matching using Generative Language Models"
+        </p>
+      </div>
+      <div class="card">
+        <h3>Matura in Informatik und Elektronik</h3>
+        <p><i class="fa-solid fa-location-dot"></i><strong>HTL</strong>, Braunau am Inn, Austria</p>
+        <p><i class="fa-solid fa-graduation-cap"></i> Graduated: July 2021 (with Distinction)</p>
+        <p>
+          Focused on computer science and electronics, with a strong emphasis on
+          practical applications and projects. Graduated with distinction.
+        </p>
+        <p class="tech-stack">
+          <strong>Thesis:</strong> "Development of an autonomus Drone for
+          Livestock Surveillance"
+        </p>
+      </div>
+    </section>
+
+    <section id="work-experience">
+      <h2 class="section-title">
+        <i class="fa-solid fa-address-card"></i>Work Experience
+      </h2>
+      <div class="card">
+        <p><i class="fa-solid fa-calendar-days"></i> 01.03.2025 - 07.07.2025 
+          <i class="fa-solid fa-location-dot" style="margin-left: 32px"></i> Linz, Austria</p>
+        <h3>Student Assistant (marginal)</h3>
+        <p><strong>Computational Perception, JKU</strong></p>
+        <p>Tutoring Recommender Systems</p>
+        <p class="tech-stack">Python, Machine Learning, Data Science</p>
+      </div>
+      <div class="card">
+        <p style="margin-bottom: 1px"><i class="fa-solid fa-calendar-days"></i> 01.10.2023 - 31.01.2024 
+        <i class="fa-solid fa-location-dot" style="margin-left: 32px"></i> Linz, Austria</p>
+        <p style="margin-left: 27px; margin-top: 1px"> 01.10.2024 - 31.01.2025</p>
+        <h3>Student Assistant (marginal)</h3>
+        <p><strong>Cooperative Information Systems, JKU</strong></p>
+        <p>Tutoring Advanced Database Systems</p>
+        <p class="tech-stack">SQL, PL/SQL, Oracle Databases</p>
+      </div>
+      <div class="card">
+        <p style="margin-bottom: 1px"><i class="fa-solid fa-calendar-days"></i> 15.07.2024 - 21.09.2024 
+          <i class="fa-solid fa-location-dot" style="margin-left: 32px"></i> Linz, Austria</p>
+        <p style="margin-left: 27px; margin-bottom: 1px; margin-top: 1px"> </i> 12.07.2023 - 30.09.2023</p>
+        <p style="margin-left: 27px; margin-top: 1px"> </i> 01.08.2022 - 30.09.2022</p>
+        <h3>Intern - Full Stack Development</h3>
+        <p><strong>Cloudflight GmbH</strong></p>
+        <p>Schachermayer Online Shop, Frauscher Insights Diagnostics</p>
+        <p class="tech-stack">Azure, Java/Kotlin, Vue.js, Angular, Spring, Git</p>
+      </div>
+      <div class="card">
+        <p><i class="fa-solid fa-calendar-days"></i> 01.07.2021 - 30.09.2021 
+          <i class="fa-solid fa-location-dot" style="margin-left: 32px"></i> Eggelsberg, Austria</p>
+        <h3>Intern - Software Engineering (Embedded)</h3>
+        <p><strong>B&R Industrial Automation</strong></p>
+        <p class="tech-stack">OPC UA RT-Communication Software in C</p>
+      </div>
+      <div class="card">
+        <p><i class="fa-solid fa-calendar-days"></i> 01.07.2021 - 30.09.2021 
+          <i class="fa-solid fa-location-dot" style="margin-left: 32px"></i> Tarsdorf, Austria</p>
+        <h3>Intern - Electrical Engineering</h3>
+        <p><strong>RSF Elektronik Ges.m.b.H.</strong></p>
+        <p>
+          Hardware/software system for voltage transformation in micro measuring
+          systems
+        </p>
+        <p class="tech-stack">PCB Design</p>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2025 Justin Hangoebl; Last updated: 02.05.2025; Icons powered by DevIcons and FontAwesome Icon</p>
+  </body>
 </html>
